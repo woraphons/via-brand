@@ -1410,7 +1410,7 @@ body {
  		font-family: 'Poiret One', cursive;
  	*/
 	font-family: 'Quicksand', sans-serif;
-	font-size: 14px;
+	font-size: 15px;
 	line-height: 1.42857143;
 	color: #ffffff;
 	background-color: #241c1a; /* #E6E6E6 */
@@ -4902,7 +4902,7 @@ border-bottom-right-radius
 
 .navbar {
 	position: relative;
-	min-height: 50px;
+	min-height: 65px;
 	margin-bottom: 20px;
 	border: 1px solid transparent
 }
@@ -4972,6 +4972,7 @@ border-bottom-right-radius
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header,
 	.container>.navbar-collapse, .container>.navbar-header {
 	margin-right: -15px;
+	margin-top: 10px;
 	margin-left: -15px
 }
 
@@ -5076,7 +5077,8 @@ border-bottom-right-radius
 }
 
 .navbar-nav {
-	margin: 7.5px -15px
+	margin: 7.5px -15px;
+	
 }
 
 .navbar-nav>li>a {
@@ -5263,8 +5265,9 @@ border-bottom-right-radius
 }
 
 .navbar-default {
-	background-color: #f8f8f8;
-	border-color: #e7e7e7
+	x_background-color: #f8f8f8;
+	background-color: #3C0;
+	border-color: #00552B
 }
 
 .navbar-default .navbar-brand {
@@ -5282,7 +5285,7 @@ border-bottom-right-radius
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: #777
+	color: #fff 	/* #777 */
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover
