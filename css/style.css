@@ -75,6 +75,12 @@
 	.test_sq{ 		/* makes a square at the end of the menu to show which CSS is used */
     	background-color: #FFF !important;
 	}
+	.h3, h3 {
+	font-size: 18px
+	}
+	.via_trademarks-a-link-font-size {
+		font-size: 10px;
+	}
 	
 }
 
