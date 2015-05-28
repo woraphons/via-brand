@@ -2658,7 +2658,12 @@ caption {
 }
 
 th {
-	text-align: left
+	text-align: left;
+	background-color: #006A35; /* change  */
+}
+td { /*  change  */
+	text-align: left;
+	background-color: #747474;
 }
 
 .table {
@@ -2677,7 +2682,8 @@ th {
 
 .table>thead>tr>th {
 	vertical-align: bottom;
-	border-bottom: 2px solid #ddd
+	border-bottom: 2px solid #ddd;
+	
 }
 
 .table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th,
@@ -6144,7 +6150,7 @@ to {
 }
 
 .list-group {
-	padding-left: 0;
+	padding-left: 20;
 	margin-bottom: 20px
 }
 
@@ -6152,9 +6158,10 @@ to {
 	position: relative;
 	display: block;
 	padding: 10px 15px;
-	margin-bottom: -1px;
-	background-color: #fff;
-	border: 1px solid #ddd
+	margin-bottom: -15px;
+	background: url(../img/marker-1.png) no-repeat 0 18px;
+	background-color: transparent;
+	border: 1px solid transparent
 }
 
 .list-group-item:first-child {
