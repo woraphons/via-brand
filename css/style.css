@@ -81,6 +81,9 @@
 	.via_trademarks-a-link-font-size {
 		font-size: 10px;
 	}
+	.icon-bar {
+	background-color: #FFF;
+	}
 	
 }
 
@@ -89,17 +92,26 @@
 	.test_sq{ 		/* makes a square at the end of the menu to show which CSS is used */
     	background-color: #F00!important;
 	}
+	.icon-bar {
+	background-color: #F00!important;
+	}
 	
 }
 @media ( min-width :768px) and (max-width:1023px){
 	.test_sq{ 		/* makes a square at the end of the menu to show which CSS is used */
     	background-color: yellow !important;
 	}
+	.icon-bar {
+	background-color: yellow !important;
+	}
 	
 }
 @media ( min-width :1024px) and (max-width:1199px){
 	.test_sq{ 		/* makes a square at the end of the menu to show which CSS is used */
     	background-color: #090!important;
+	}
+	.icon-bar {
+	background-color: #090!important;
 	}
 	.h2, h2 {
 		font-size: 22px
@@ -113,6 +125,9 @@
 @media ( min-width :1200px) {
 	.test_sq{ 		/* makes a square at the end of the menu to show which CSS is used */
     	background-color: #090!important;
+	}
+	.icon-bar {
+	background-color: #090!important;
 	}
 	
 	
@@ -175,3 +190,61 @@ img.stretch
     width       : 100%;
   }
  aside { color: #fff; }	
+ 
+ .text-red {
+	color: #ff0000
+}
+.text-green {
+	color:#00AA4F;
+}
+/* ------------------------------------------ */
+.panel-green {
+	border-color: #00ff00
+}
+
+.panel-green>.panel-heading {
+	color: #00ff00;
+	background-color: #0000ff;
+	border-color: #ff8040
+}
+
+.panel-green>.panel-heading+.panel-collapse>.panel-body {
+	border-top-color: #000000
+}
+
+.panel-green>.panel-heading .badge {
+	color: #000000;
+	background-color: #a94442
+}
+
+.panel-green>.panel-footer+.panel-collapse>.panel-body {
+	border-bottom-color: #ebccd1
+}
+
+
+
+
+
+
+.pagination .glyphicon
+{
+    margin-right:0px !important; /*override*/
+}
+
+.pagination a
+{
+    color:#ff0000;
+}
+.panel ul
+{
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+.news-item
+{
+    
+    margin:0px;
+    border-bottom:1px dotted #555; 
+}
