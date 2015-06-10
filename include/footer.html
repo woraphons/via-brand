@@ -1,0 +1,62 @@
+<div class="container"><!-- footer       -->
+	<div class="col-md-12">	<br><br><br><hr></div> <!-- green line -->
+	<div class="col-md-12">
+		<div class="panel panel-default">
+  			<div class="panel-body">
+  				<div class="clearfix">
+        			<div class="text-center">
+          				<small style="color:#CCCCCC">© 2005-2015 ALL RIGHTS RESERVED </small>|<a href="http://www.viabrand.com">ViA Brand</a>
+						<span style="color:white">|</span><a href="http://www.viacardgroup.com" target="_blank">ViA Card Group</a>
+						<span style="color:white">|</span><a href="http://www.viacard.co.th" target="_blank">ViA Card Thailand</a>
+						<span style="color:white">|</span><a href="http://www.e-pay.co.th" target="_blank">e-Pay Thailand</a>
+						<span style="color:white">|</span>	
+        			</div>
+  				</div> 
+        		<div class="clearfix text-center">
+         			<small>ViA - ViAcard - ViA Care and the ViAns mascot are a few of all Registered Trademarks by the ViA Global Holdings AG, any other trade or Service Mark is own by its registered owner.</small>
+        		</div>
+  			</div>	
+		</div>
+	</div>
+</div>
+	
+<!-- ---------------------------------------------------------------------------------------- -->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script>		
+		 jQuery(window).load(function() {	
+		 $x = $(window).width();		
+		if($x > 1024)
+		{			
+			jQuery("#content .row").preloader();    }		 
+     		jQuery('.magnifier').touchTouch();
+	 		$("#menu_index").addClass("active");
+    		jQuery('.spinner').animate({'opacity':0},1000,'easeOutCubic',function (){jQuery(this).css('display','none')});	
+  		  }); 
+				
+	</script>
+	<script type="text/javascript">
+    $(function () {
+       
+		
+		$(".down").bootstrapNews({
+            newsPerPage: 5,
+            autoplay: true,
+			pauseOnHover: true,
+			navigation: true,
+            direction: 'down',
+            newsTickerInterval: 2500,
+            onToDo: function () {
+                //console.log(this);
+            }
+        });
+
+       
+    });
+</script>
+ 
+</body>
+</html>

@@ -70,6 +70,12 @@
     border: 1px solid white;
     margin: 1px;
 }
+.small-text{
+	margin-top:9px;
+	margin-bottom:9px;
+	font-size: 200%;
+}
+
 /* #### iPhone 4+ Portrait or Landscape #### */
 @media ( min-width :1px) and (max-width:479px){
 	.test_sq{ 		/* makes a square at the end of the menu to show which CSS is used */
@@ -84,7 +90,12 @@
 	.icon-bar {
 	background-color: #FFF;
 	}
-	
+	.small-text{
+		font-size: 150%;
+	}
+	.vfsf-text{
+		font-size: 11px;
+	}
 }
 
 
